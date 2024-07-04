@@ -13,6 +13,7 @@ model User {
   firstName String?
   id        String   @id @default(cuid())
   lastName  String?
+  newField  Boolean?
   password  String
   roles     Json
   updatedAt DateTime @updatedAt
